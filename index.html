@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- META TAGS -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="./css/main.min.css">
+  <!-- FAVICON -->
+  <link rel="icon" href="./img/favicon-32x32.png">
+  <title>Bookmark</title>
+</head>
+<body>
+
+  <!-- NAV-MENU -->
+  <nav class="container-fluid fixed-top bg-white">
+    <div class="container navbar navbar-expand-md navbar-light pt-3">
+      <!-- LOGO -->
+      <a href="#" class="navbar-brand">
+        <img src="img/logo-bookmark.svg" alt="Logo"/>
+      </a>
+      <!-- COLLAPSE -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#MenuNavegacio" aria-controls="navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="MenuNavegacio" class="collapse navbar-collapse justify-content-end text-center">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">FEATURES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PRICING</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+          <span>
+            <a class="btn btn-danger ps-3 pe-3 text-white" role="button" href="#">LOGIN</a>
+          </span>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="conainer-fluid" style="margin-top: 100px">
+    <div class="bg-primary Mancha1"></div>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 text-center text-md-start">
+        <img src="img/illustration-hero.svg" class="img-fluid order-md-2 col" alt="illustration hero"/>
+        <section class="order-md-1 col align-self-center">
+          <h2 class="fw-bold">A Simple Bookmark Manager</h2>
+          <p class="fw-light text-muted">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+          <div>
+            <a href="#" class="btn btn-primary">Get it on Chrome</a>
+            <a href="#" class="btn btn-light">Get it on Firefox</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+
+  <!-- FEATURES -->
+  <main class="container-fluid text-center">
+    <div class="container mt-5 ">
+        <h1 class="fw-bold">Features</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-md-8">
+                <p class="mt-3 lead fw-light text-muted">Our aim is to make it quick and easy for you to acces your favorite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+    </div>
+
+        <!-- TABS -->
+    <div class="container">
+        <ul class="nav nav-tabs justify-content-center mt-5 row row-cols-1 row-cols-md-3 " id="myTab" role="tablist">
+          <li class="nav-item text-center border-bottom" role="presentation">
+            <a class="nav-link active" id="simple-tab" data-bs-toggle="tab" data-bs-target="#simplebookmarking" type="button" role="tab" aria-controls="simple" aria-selected="true">Simple bookmarking</a>
+          </li>
+          <li class="nav-item border-bottom" role="presentation">
+            <a class="nav-link" id="speedy-tab" data-bs-toggle="tab" data-bs-target="#speedysearching" type="button" role="tab" aria-controls="speedy" aria-selected="false">Speedy Searching</a>
+          </li>
+          <li class="nav-item border-bottom" role="presentation">
+            <a class="nav-link" id="easy-tab" data-bs-toggle="tab" data-bs-target="#easysharing" type="button" role="tab" aria-controls="easy" aria-selected="false">Easy Sharing</a>
+          </li>
+        </ul>
+    </div>
+        <!-- CONTENT TABS -->
+    <div class="bg-primary Mancha2"></div>
+    <div class="container">
+        <div class="tab-content mt-5 text-start" id="myTabContent">
+          <!-- SIMPLE BOOKMARKING -->
+          <div class="tab-pane fade show active" id="simplebookmarking" role="tabpanel" aria-labelledby="simple-tab">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="align-self-center col">
+                <img src="img/illustration-features-tab-1.svg" class="img-fluid" alt="illustration simple bookmarking"/>
+              </div>
+              <div class="align-self-center col mt-3">
+                <h1 class="card-title fw-bold">Bookmark in one click</h1>
+                <p class="fw-light text-muted"> Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                <div>
+                  <a href="#" class="btn btn-primary">More info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- SPEEDY SEARCHING -->
+          <div class="tab-pane fade" id="speedysearching" role="tabpanel" aria-labelledby="speedy-tab">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="align-self-center col">
+                <img src="img/illustration-features-tab-2.svg" class="img-fluid" alt="illustration speedy searching"/>
+              </div>
+              <div class="align-self-center col mt-3">
+                <h1 class="card-title fw-bold">Intelligent search</h1>
+                <p class="fw-light text-muted">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                <div>
+                  <a href="#" class="btn btn-primary">More info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- EASY SHARING -->
+          <div class="tab-pane fade" id="easysharing" role="tabpanel" aria-labelledby="easy-tab">
+            <div class="row row-cols-1 row-cols-md-2">
+              <div class="align-self-center col">
+                <img src="img/illustration-features-tab-3.svg" class="img-fluid" alt="illustration easy sharing"/>
+              </div>
+              <div class="align-self-center col mt-3">
+                <h1 class="card-title fw-bold">Share your bookmarks</h1>
+                <p class="fw-light text-muted">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                <div>
+                  <a href="#" class="btn btn-primary">More info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- DOWNLOADS -->
+    <div class="container text-center mt-5">
+      <h1 class="fw-bold pt-5">Download the extension</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-12 col-md-8">
+              <p class="mt-3 lead fw-light text-muted">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritze.</p>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+    <!-- CARDS -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center shadow">
+              <img src="./img/logo-chrome.svg" class="card-img-top w-auto mx-auto pt-5" alt="Google Chrome img">
+              <div class="card-body pt-4">
+                <h5 class="card-title fw-bold">Add to Chrome</h5>
+                <p class="card-text">Minium version 62</p>
+                <img src="./img/bg-dots.svg" alt="Punts separadors" class="img-fluid">
+                <p><a href="#" class="btn btn-primary mt-3 w-100">Add & install Extensions</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-md-3">
+            <div class="card-body text-center shadow">
+            <img src="./img/logo-firefox.svg" class="card-img-top w-auto mx-auto pt-5" alt="Google Chrome img">
+            <div class="card-body pt-4">
+              <h5 class="card-title fw-bold">Add to Firefox</h5>
+              <p class="card-text">Minium version 55</p>
+              <img src="./img/bg-dots.svg" alt="Punts separadors" class="img-fluid">
+              <p><a href="#" class="btn btn-primary mt-3 w-100">Add & install Extensions</a></p>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mt-md-5">
+            <div class="card-body text-center shadow">
+            <img src="./img/logo-opera.svg" class="card-img-top w-auto mx-auto pt-5" alt="Google Chrome img">
+            <div class="card-body pt-4">
+              <h5 class="card-title fw-bold">Add to Opera</h5>
+              <p class="card-text">Minium version 46</p>
+              <img src="./img/bg-dots.svg" alt="Punts separadors" class="img-fluid">
+              <p><a href="#" class="btn btn-primary mt-3 w-100">Add & install Extensions</a></p>
+            </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FAQS -->
+      <div class="container text-center mt-5">
+        <h1 class="fw-bold">Frequently Asked Questions</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-md-8">
+                <p class="mt-3 lead fw-light text-muted">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+            </div>
+            <div class="col"></div>
+          </div>
+        </div>
+      </div>
+      <!-- ACORDING -->
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col"></div>
+          <div class="accordion mt-5 coll-12 col-md-8" id="accordionExample">
+            <div class="accordion-item myaccordionitem border-bottom border-top">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What is Bookmark?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-start fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis provident culpa laudantium eveniet commodi quae soluta corrupti reprehenderit atque. Architecto esse harum soluta voluptatibus fugiat quisquam nulla molestiae totam at?
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-bottom">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How can i request a new browser?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-start fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempore id, excepturi, delectus explicabo temporibus quidem eius facilis adipisci vel laboriosam eum neque autem. Dolorum numquam nobis impedit pariatur quas!
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-bottom">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Is there a mobile app?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-start fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor vero cum corrupti nesciunt temporibus deserunt debitis cupiditate vitae veritatis laudantium, cumque expedita dicta aliquid obcaecati numquam optio nihil est voluptatibus.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item border-bottom">
+              <h2 class="accordion-header" id="headingfour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                  What about other Chromium browsers?
+                </button>
+              </h2>
+              <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                <div class="accordion-body text-start fw-light">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, quaerat! Aut eum ipsam dolorem ducimus voluptatibus vero autem quia ex, facere possimus excepturi totam quibusdam saepe. Praesentium magnam maiores dolorem?
+                </div>
+              </div>
+            </div>
+            <div class="justify-content-center mt-5 mb-5">
+              <button type="button" class="btn btn-primary">More info</button>
+            </div>
+          </div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="container-fluid">
+
+    <!-- CONTACT -->
+    <div class="container-fluid bg-primary pb-5">
+        <div class="container text-center mt-5 pt-4">
+          <div class="row">
+            <div class="col"></div>
+            <div class="col-12 col-md-6 text-white">
+                <p class="mt-3 small font-monospace">35.000+ ALREADY JOINED</p>
+                <h4 class="mt-3 fw-bold">Stay up-to-date with what we're doing</h4>
+                <form class="row mt-4 was-validated">
+                    <div class="col-12 col-md-7">
+                      <input id="mail" type="text" class="form-control" placeholder="Enter your email address" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">S'ha domplir correctament el formulari</div>
+                    </div>
+                    <div class="col-12 col-md-5 mt-3 mt-md-0">
+                      <button class="btn btn-danger text-white w-100 small" type="button">Contact Us</button>
+                    </form>
+                </div>
+            </div>
+            <div class="col"></div>
+          </div>
+      </div>
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="container-fluid bg-dark">
+      <div class="container pt-3 pb-3">
+        <div class="row">
+            <div class="col-12 col-md-9">
+              <ul class="list-inline mb-2 row row-cols-md-5 text-center">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <img src="img/logo-bookmark.svg" class="text-white" alt="Logo" />
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="font-monospace text-white small text-decoration-none fw-light" href="#">FEATURES</a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="font-monospace text-white small text-decoration-none fw-light" href="#">PRICING</a>
+                </li>
+                <li class="list-inline-item">
+                  <a class="font-monospace text-white small text-decoration-none fw-light" href="#">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+            
+            <div class="col-12 col-md-3">
+            <div class="row text-center">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item">
+                  <a href="#">
+                    <img src="img/icon-facebook.svg" class="me-3 " alt="Logo" />
+                  </a>
+                </li>
+                <li class="list-inline-item ">
+                  <a href="#">
+                    <img src="img/icon-twitter.svg" alt="Logo" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+   </div>
+  </footer>
+
+  <!-- BOOTSTRAP AND POPPER JS -->
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

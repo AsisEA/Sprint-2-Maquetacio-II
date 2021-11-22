@@ -1,0 +1,84 @@
+
+// CUSTOM COLORS
+$dark: #242946;
+$primary:    #5265E1;
+$secondary:  #FA5959;
+$danger: #fa5757;
+
+
+// CUSTOM BACKGROUND
+
+.Mancha1 {
+    z-index: -1; 
+    position: absolute; 
+    right: 0px; 
+    margin-top: 5vh; 
+    width: 40vw; 
+    height: 30%; 
+    border-radius: 50% 00% 0% 50% / 50% 0% 0% 50% ;
+}
+
+.Mancha2{
+    z-index: -1; 
+    position: absolute; 
+    margin-top: 11vh; 
+    width: 40vw; 
+    height: 30%; 
+    border-radius: 0% 50% 50% 0% / 0% 50% 50% 0%
+}
+
+// CUSTOM TAB
+
+$nav-link-color: gray;
+$nav-tabs-border-width: 0px;
+$nav-tabs-link-active-color: black;
+
+#myTab li a.active {
+    border-bottom: 4px solid $secondary;
+}
+
+// CUSTOM ACCORDION
+
+$accordion-icon-color: $primary;
+$accordion-border-width: 0px;
+$accordion-icon-active-color: $danger;
+$accordion-bg: white;
+$accordion-button-bg: white;
+$accordion-button-active-bg: white;
+$accordion-button-active-color: black;
+$accordion-button-focus-box-shadow: white;
+
+// CUSTOM HOVERS
+
+$nav-link-hover-color: $secondary !important;
+
+.accordion-button:hover {
+    color: $danger;
+}
+
+.btn-primary:hover {
+    color: $primary !important;
+    background-color: #fff !important;
+    border-color: $primary !important;
+}
+
+.btn-danger:hover {
+    color: $danger !important;
+    background-color: #fff !important;
+    border-color: $danger !important;
+}
+
+.btn-light:hover {
+    color: black !important;
+    background-color: #fff !important;
+    border-color: black !important;
+}
+
+.list-inline-item > a:hover {
+    color: $danger !important;
+}
+
+// IMPORT BOOTSTRAPP VARIABLES
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
